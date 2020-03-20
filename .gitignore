@@ -1,0 +1,20 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+# Local files
+.DS_Store
+.idea
+.nbproject
+
+# MySQL local database
+.docker/mysql/data
+
+# composer and symfony lock files
+*.lock
